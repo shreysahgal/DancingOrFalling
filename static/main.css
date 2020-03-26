@@ -1,0 +1,25 @@
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+
+.header {
+	text-align: center;
+}
+
+ img {
+ 	display: flex;
+    max-height: 400px;
+    max-width: 400px;
+    height: auto;
+    width: auto;
+
+    vertical-align: middle;
+
+    margin-left: auto;
+    margin-right: auto;
+}

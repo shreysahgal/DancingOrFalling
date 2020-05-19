@@ -6,12 +6,16 @@
 	<meta name="description" content="are they dancing? or are they falling???">
 	
 	<link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+	<script src="{{ url_for('static', filename='script.js') }}"></script>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 </head>
 
 <body>
 	<div class="header">
 		<h3>dancing? falling?</h2>
+	</div>
+	<div class="header">
+		<h4 style="color: red" id="timer"><script type="text/javascript">countDown();</script></h4>
 	</div>
 	<div class="row">
   		<div class="column">

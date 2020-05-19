@@ -11,6 +11,10 @@
 	text-align: center;
 }
 
+#id {
+  text-align: right;
+}
+
  img {
    display: flex;
    max-height: 400px;

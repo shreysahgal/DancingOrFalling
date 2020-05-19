@@ -1,4 +1,4 @@
-from flask import Flask, request, redirect, render_template, abort, flash
+from flask import Flask, request, redirect, render_template
 from random import randint
 import sys
 

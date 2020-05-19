@@ -28,7 +28,10 @@
 				<a href="/wrong"><button type="button" class="btn btn-primary">dancing</button></a>
 			</div>
 			<div class="col-6" style="text-align: left;">
-				<a href="/"><button type="button" class="btn btn-primary">falling</button></a>
+				<form action='/' method='POST'>
+					<input name="prev" id="prev" value="{{ index }}" style="display: none;">
+					<a href="/"><button type="submit button" class="btn btn-primary">falling</button></a>
+				</form>
 			</div>
 		</div>
 	</div>

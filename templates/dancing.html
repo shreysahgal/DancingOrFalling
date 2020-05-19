@@ -15,7 +15,7 @@
 		<h3>dancing? falling?</h2>
 	</div>
 	<div class="header" id="timer">
-		<h5><script type="text/javascript">countDown();</script></h5>
+		<h4 syle="color:red;"><script type="text/javascript">countDown();</script></h4>
 	</div>
 	<div class="row">
   		<div class="column">
@@ -25,7 +25,10 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-6" style="text-align: right;">
-				<a href="/"><button type="button" class="btn btn-primary">dancing</button></a>
+				<form action='/' method='POST'>
+					<input name="prev" id="prev" value="{{ index }}" style="display: none;">
+					<a href="/"><button type="submit button" class="btn btn-primary">dancing</button></a>
+				</form>
 			</div>
 			<div class="col-6" style="text-align: left;">
 				<a href="/wrong"><button type="button" class="btn btn-primary">falling</button></a>
